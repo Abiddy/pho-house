@@ -1,0 +1,15 @@
+{
+  "name": "pho-house",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ph\u1edf House on Hawthorne Blvd in Lawndale: oxtail ph\u1edf, house special ph\u1edf, spring rolls, rice plates and Thai iced tea. Open Monday to Saturday, 10 am to 8:30 pm.",
+  "scripts": {
+    "start": "serve . -l tcp://0.0.0.0:${PORT:-3000}"
+  },
+  "dependencies": {
+    "serve": "14.2.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
